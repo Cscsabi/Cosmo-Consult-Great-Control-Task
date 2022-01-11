@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "al",
+      "request": "launch",
+      "name": "launch: Debrecen4",
+      "server": "https://swarm-lmscyqic.westeurope.cloudapp.azure.com",
+      "serverInstance": "4f2305c0f49adev",
+      "port": 443,
+      "authentication": "UserPassword",
+      "startupObjectId": 22,
+      "startupObjectType": "Page",
+      "tenant": "default",
+      "breakOnError": true,
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true
+    },
+    {
+      "type": "al",
+      "request": "snapshotInitialize",
+      "name": "snapshotInitialize: Debrecen4",
+      "server": "https://swarm-lmscyqic.westeurope.cloudapp.azure.com",
+      "serverInstance": "4f2305c0f49asnap",
+      "port": 443,
+      "authentication": "UserPassword",
+      "tenant": "default",
+      "environmentType": "OnPrem",
+      "breakOnNext": "WebClient"
+    }
+  ]
+}
