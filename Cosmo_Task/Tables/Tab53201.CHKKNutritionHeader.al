@@ -7,28 +7,28 @@ table 53201 "CHKK Nutrition Header"
     {
         field(1; "Nutrition number"; Code[20])
         {
-            Caption = 'Nutrition number';
+            Caption = 'Táplálkozási szám';
             DataClassification = CustomerContent;
         }
         field(2; "Customer number"; Code[100])
         {
-            Caption = 'Customer number';
+            Caption = 'Vevő';
             DataClassification = CustomerContent;
             TableRelation = Customer;
         }
         field(3; "Customer name"; Text[100])
         {
-            Caption = 'Customer name';
+            Caption = 'Vevő neve';
             DataClassification = CustomerContent;
         }
         field(4; "Date"; Date)
         {
-            Caption = 'Date';
+            Caption = 'Dátum';
             DataClassification = CustomerContent;
         }
         field(5; Status; Option)
         {
-            Caption = 'Status';
+            Caption = 'Státusz';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
         }

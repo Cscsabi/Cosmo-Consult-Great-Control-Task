@@ -50,6 +50,7 @@ page 53203 "CHKK Nutrition Order"
 
             part(Lines; "CHKK Nutrition Order Subform")
             {
+                Caption = 'Sorok';
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
             }
