@@ -16,8 +16,8 @@
   "application": "19.0.0.0",
   "idRanges": [
     {
-      "from": 53300,
-      "to": 53399
+      "from": 53200,
+      "to": 53299
     }
   ],
   "features": ["TranslationFile"],

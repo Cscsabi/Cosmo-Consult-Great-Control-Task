@@ -2,7 +2,143 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Cosmo Great Task">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Table 549202083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Makrotápanyagok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Szénhidrát</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kód</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Leírás</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zsír</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fehérje</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 549202083 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mértékegység</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Táplálkozás fejléc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Field 573876685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Field Customer name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Field 1116415121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Field Customer number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Field 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Field Nutrition number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1340556184 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Táplálkozás lista</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Szénhidrát</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zsír</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 1513615327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tápanyag kód</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Nutrition code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2405150185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Megnevezés</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Nutrition name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Táplálkozási szám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Nutrition number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fehérje</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mennyiség</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 2015009925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorszám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Serial number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 197223135 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mértékegység</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>
