@@ -3,6 +3,7 @@ page 53203 "CHKK Nutrition Order"
     Caption = 'CHKK Étrend';
     PageType = Document;
     SourceTable = "CHKK Nutrition Header";
+    Editable = false;
 
     layout
     {
@@ -40,6 +41,12 @@ page 53203 "CHKK Nutrition Order"
                     ApplicationArea = All;
                     Editable = true;
                 }
+            }
+
+            part(Lines; "CHKK Nutrition Order Subform")
+            {
+                ApplicationArea = All;
+                SubPageLink = "Nutrition number" = field("Nutrition number");
             }
         }
     }

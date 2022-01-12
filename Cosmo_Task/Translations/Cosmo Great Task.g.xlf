@@ -228,6 +228,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Unit of Measure - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 197223135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Nutrition Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 197223135 - Control 573876685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Customer name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 197223135 - Control 1116415121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Customer number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 197223135 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 197223135 - Control 2295256373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nutrition number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Nutrition number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 197223135 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Status - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Étrend</source>
           <note from="Developer" annotates="general" priority="2"></note>

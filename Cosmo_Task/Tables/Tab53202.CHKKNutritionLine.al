@@ -2,6 +2,8 @@ table 53202 "CHKK Nutrition Line"
 {
     Caption = 'CHKK Táplálkozás lista';
     DataClassification = ToBeClassified;
+    LookupPageId = "CHKK Macronutrients List";
+    DrillDownPageId = "CHKK Macronutrients List";
 
     fields
     {
@@ -19,6 +21,7 @@ table 53202 "CHKK Nutrition Line"
         {
             Caption = 'Tápanyag kód';
             DataClassification = CustomerContent;
+            TableRelation = "CHKK Macronutrients" WHERE(Code = field("Nutrition code"));
         }
         field(4; "Nutrition name"; Text[100])
         {
@@ -29,6 +32,12 @@ table 53202 "CHKK Nutrition Line"
         {
             Caption = 'Mennyiség';
             DataClassification = CustomerContent;
+            trigger OnValidate()
+            var
+                Calculator: Codeunit "Nutrition Calculator";
+            begin
+                Calculator.CalcProtein(Rec);
+            end;
         }
         field(6; Protein; Integer)
         {
