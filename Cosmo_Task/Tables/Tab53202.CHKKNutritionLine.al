@@ -37,6 +37,10 @@ table 53202 "CHKK Nutrition Line"
                 Calculator: Codeunit "Nutrition Calculator";
             begin
                 Calculator.CalcProtein(Rec);
+                Calculator.CalcCarbo(Rec);
+                Calculator.CalcFat(Rec);
+                Calculator.CalcKcal(Rec);
+                Calculator.CalcKJ(Rec);
             end;
         }
         field(6; Protein; Integer)

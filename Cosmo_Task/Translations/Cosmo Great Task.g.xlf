@@ -289,7 +289,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Unit of Measure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 197223135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CHKK Nutrition Line</source>
+          <source>CHKK Táplálkozás</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Property Caption</note>
         </trans-unit>
