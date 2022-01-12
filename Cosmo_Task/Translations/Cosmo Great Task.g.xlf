@@ -3,6 +3,66 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Cosmo Great Task">
     <body>
       <group id="body">
+        <trans-unit id="Table 3879569547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK List Page Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mennyiség</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Szénhidrát</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zsír</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 3769007615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tápanyag kód</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 407151881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tápanyag neve</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 275121493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Táplálkozási szám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fehérje</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 87640997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorszám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Serial Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3879569547 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mértékegység</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 549202083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Makrotápanyagok</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -268,25 +328,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Customer name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 573876685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vevő neve</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Customer name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Control 1116415121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Customer number field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Customer number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 1116415121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vevő</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Customer number - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1286316263 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dátum</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Control 2295256373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Nutrition number field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Nutrition number - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Táplálkozási szám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Nutrition number - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Status field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Státusz</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1286316263 - Action 2711167031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lezár</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Action ReleaseStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1286316263 - Action 1928905313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Újranyit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Action ReopenStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1528961921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Étrend Alűrlap</source>

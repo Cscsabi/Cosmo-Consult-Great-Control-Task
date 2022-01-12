@@ -1,7 +1,7 @@
 page 53205 "CHKK Nutrition Line"
 {
     ApplicationArea = All;
-    Caption = 'CHKK Nutrition Line';
+    Caption = 'CHKK Táplálkozás';
     PageType = List;
     SourceTable = "CHKK Nutrition Header";
     UsageCategory = Lists;
