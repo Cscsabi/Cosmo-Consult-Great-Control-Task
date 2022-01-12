@@ -2,7 +2,7 @@ table 53201 "CHKK Nutrition Header"
 {
     Caption = 'CHKK Táplálkozás fejléc';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(1; "Nutrition number"; Code[20])
@@ -10,10 +10,11 @@ table 53201 "CHKK Nutrition Header"
             Caption = 'Nutrition number';
             DataClassification = CustomerContent;
         }
-        field(2; "Customer number"; Code[20])
+        field(2; "Customer number"; Code[100])
         {
             Caption = 'Customer number';
             DataClassification = CustomerContent;
+            TableRelation = Customer;
         }
         field(3; "Customer name"; Text[100])
         {
@@ -29,7 +30,7 @@ table 53201 "CHKK Nutrition Header"
         {
             Caption = 'Status';
             DataClassification = CustomerContent;
-            OptionMembers = Open, Closed;
+            OptionMembers = Open,Closed;
         }
     }
     keys

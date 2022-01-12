@@ -2,7 +2,7 @@ table 53202 "CHKK Nutrition Line"
 {
     Caption = 'CHKK Táplálkozás lista';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(1; "Nutrition number"; Code[20])
@@ -30,17 +30,17 @@ table 53202 "CHKK Nutrition Line"
             Caption = 'Mennyiség';
             DataClassification = CustomerContent;
         }
-        field(6; Protein; Decimal)
+        field(6; Protein; Integer)
         {
             Caption = 'Fehérje';
             DataClassification = CustomerContent;
         }
-        field(7; Fat; Decimal)
+        field(7; Fat; Integer)
         {
             Caption = 'Zsír';
             DataClassification = CustomerContent;
         }
-        field(8; Carbohydrate; Decimal)
+        field(8; Carbohydrate; Integer)
         {
             Caption = 'Szénhidrát';
             DataClassification = CustomerContent;
@@ -50,12 +50,12 @@ table 53202 "CHKK Nutrition Line"
             Caption = 'Mértékegység';
             DataClassification = CustomerContent;
         }
-        field(10; KJ; Decimal)
+        field(10; KJ; Integer)
         {
             Caption = 'KJ';
             DataClassification = CustomerContent;
         }
-        field(11; Kcal; Decimal)
+        field(11; Kcal; Integer)
         {
             Caption = 'Kcal';
             DataClassification = CustomerContent;
@@ -63,7 +63,7 @@ table 53202 "CHKK Nutrition Line"
     }
     keys
     {
-        key(PK; "Nutrition number")
+        key(PK; "Nutrition number", "Serial number")
         {
             Clustered = true;
         }

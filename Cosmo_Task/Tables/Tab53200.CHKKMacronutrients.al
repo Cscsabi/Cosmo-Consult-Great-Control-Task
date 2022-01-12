@@ -1,8 +1,8 @@
 table 53200 "CHKK Macronutrients"
 {
-    Caption = 'Makrotápanyagok';
+    Caption = 'CHKK Makrotápanyagok';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(1; "Code"; Code[20])
@@ -15,17 +15,17 @@ table 53200 "CHKK Macronutrients"
             Caption = 'Leírás';
             DataClassification = CustomerContent;
         }
-        field(3; Protein; Decimal)
+        field(3; Protein; Integer)
         {
             Caption = 'Fehérje';
             DataClassification = CustomerContent;
         }
-        field(4; Fat; Decimal)
+        field(4; Fat; Integer)
         {
             Caption = 'Zsír';
             DataClassification = CustomerContent;
         }
-        field(5; Carbohydrate; Decimal)
+        field(5; Carbohydrate; Integer)
         {
             Caption = 'Szénhidrát';
             DataClassification = CustomerContent;
@@ -34,13 +34,14 @@ table 53200 "CHKK Macronutrients"
         {
             Caption = 'Mértékegység';
             DataClassification = CustomerContent;
+            TableRelation = "Item Unit of Measure" WHERE("Item No." = field(Code));
         }
-        field(7; KJ; Decimal)
+        field(7; KJ; Integer)
         {
             Caption = 'KJ';
             DataClassification = CustomerContent;
         }
-        field(8; Kcal; Decimal)
+        field(8; Kcal; Integer)
         {
             Caption = 'Kcal';
             DataClassification = CustomerContent;

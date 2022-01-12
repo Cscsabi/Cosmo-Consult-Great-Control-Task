@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Table 549202083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Makrotápanyagok</source>
+          <source>CHKK Makrotápanyagok</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Macronutrients - Property Caption</note>
         </trans-unit>
@@ -138,8 +138,98 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Unit of Measure - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1574538498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Macronutrients Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Szénhidrát field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kód field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Leírás field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Zsír field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fehérje field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1574538498 - Control 1920046521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Mértékegység field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients Header - Control Unit of Measure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Macronutrients List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Szénhidrát field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kód field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Leírás field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Zsír field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fehérje field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1784536525 - Control 1920046521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Mértékegység field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Macronutrients List - Control Unit of Measure - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CHKK Nutrition Order</source>
+          <source>CHKK Étrend</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Property Caption</note>
         </trans-unit>
@@ -167,6 +257,66 @@
           <source>Specifies the value of the Status field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Étrend Alűrlap</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Szénhidrát field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Zsír field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 1513615327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tápanyag kód field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Nutrition code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2405150185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Megnevezés field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Nutrition name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2295256373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Táplálkozási szám field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Nutrition number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fehérje field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Mennyiség field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 2015009925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sorszám field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Serial number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1528961921 - Control 1920046521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Mértékegység field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Unit of Measure - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>

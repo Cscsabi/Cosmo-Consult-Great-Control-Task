@@ -3,7 +3,7 @@ page 53203 "CHKK Nutrition Order"
     Caption = 'CHKK Étrend';
     PageType = Document;
     SourceTable = "CHKK Nutrition Header";
-    
+
     layout
     {
         area(content)
