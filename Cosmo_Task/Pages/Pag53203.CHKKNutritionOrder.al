@@ -64,13 +64,6 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Lezár';
                 Image = ReleaseDoc;
                 ApplicationArea = All;
-
-                trigger OnAction()
-                begin
-                    Rec.TestField("Date");
-                    Rec.Status := Rec.Status::Closed;
-                    Rec.Modify();
-                end;
             }
 
             action(ReopenStatus)
@@ -78,12 +71,6 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Újranyit';
                 Image = ReOpen;
                 ApplicationArea = All;
-
-                trigger OnAction()
-                begin
-                    Rec.Status := Rec.Status::Open;
-                    Rec.Modify();
-                end;
             }
             action(ExportDoc)
             {
