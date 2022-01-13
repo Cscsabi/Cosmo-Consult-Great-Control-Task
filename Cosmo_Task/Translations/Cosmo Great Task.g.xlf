@@ -483,6 +483,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Lines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1286316263 - Action 2660214864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exportálás Fájlba</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Action ExportDoc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1286316263 - Action 3901635404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Könyvelés</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Action PostDoc - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Action 2711167031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lezár</source>
           <note from="Developer" annotates="general" priority="2"></note>

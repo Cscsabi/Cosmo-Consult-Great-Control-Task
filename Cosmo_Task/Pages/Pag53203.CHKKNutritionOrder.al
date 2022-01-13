@@ -3,7 +3,6 @@ page 53203 "CHKK Nutrition Order"
     Caption = 'CHKK Étrend';
     PageType = Document;
     SourceTable = "CHKK Nutrition Header";
-    Editable = false;
 
     layout
     {
@@ -57,7 +56,7 @@ page 53203 "CHKK Nutrition Order"
         }
     }
     actions
-        {
+    {
         area(Processing)
         {
             action(ReleaseStatus)
@@ -86,6 +85,18 @@ page 53203 "CHKK Nutrition Order"
                     Rec.Modify();
                 end;
             }
+            action(ExportDoc)
+            {
+                Caption = 'Exportálás Fájlba';
+                Image = Export;
+                ApplicationArea = All;
+            }
+            action(PostDoc)
+            {
+                Caption = 'Könyvelés';
+                Image = Post;
+                ApplicationArea = All;
+            }
         }
     }
     var
@@ -104,5 +115,5 @@ page 53203 "CHKK Nutrition Order"
         else
             PageEditable := false;
     end;
-    
+
 }
