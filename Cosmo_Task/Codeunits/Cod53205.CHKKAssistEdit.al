@@ -2,7 +2,7 @@ codeunit 53205 "CHKK Assist Edit"
 {
     var
         NutritionHeader: Record "CHKK Nutrition Header";
-
+    /*
     procedure AssistEdit(OldNutritionHeader: Record "CHKK Nutrition Header") Result: Boolean
     var
         NutritionHeader2: Record "CHKK Nutrition Header";
@@ -15,4 +15,5 @@ codeunit 53205 "CHKK Assist Edit"
 
         end;
     end;
+    */
 }

@@ -21,7 +21,7 @@ page 53210 "CHKK Nutrition No. Setup"
         }
     }
 
-    trigger OnOpenPage()
+    trigger OnNewRecord(BelowxRec: Boolean)
     var
         nutritionCode: Code[40];
         Number: Code[40];
