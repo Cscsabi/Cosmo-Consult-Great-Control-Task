@@ -14,5 +14,11 @@ codeunit 53203 "CHKK Nutrition Order Mgt."
         Rec.Status := Rec.Status::Open;
         Rec.Modify();
     end;
+
+    [EventSubscriber(ObjectType::Page, Page::"CHKK Nutrition Order", 'OnBeforeActionEvent', 'ExportDoc', false, false)]
+    procedure ExportDoc(var Rec: Record "CHKK Nutrition Header")
+    begin
+        Message('Not working unfortunately! :S');
+    end;
 }
 

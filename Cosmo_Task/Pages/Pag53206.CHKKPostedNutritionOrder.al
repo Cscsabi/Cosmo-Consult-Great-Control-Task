@@ -1,8 +1,9 @@
-page 53203 "CHKK Nutrition Order"
+page 53206 "CHKK Posted Nutrition Order"
 {
-    Caption = 'CHKK Étrend';
+    Caption = 'CHKK Könyvelt Étrend';
     PageType = Document;
-    SourceTable = "CHKK Nutrition Header";
+    SourceTable = "CHKK Posted Nutrition Header";
+    Editable = false;
 
     layout
     {
@@ -15,28 +16,28 @@ page 53203 "CHKK Nutrition Order"
                     Caption = 'Táplálkozási szám';
                     ToolTip = 'Specifies the value of the Nutrition number field.';
                     ApplicationArea = All;
-                    Editable = PageEditable;
+                    Editable = false;
                 }
                 field("Customer number"; Rec."Customer number")
                 {
                     Caption = 'Vevő';
                     ToolTip = 'Specifies the value of the Customer number field.';
                     ApplicationArea = All;
-                    Editable = PageEditable;
+                    Editable = false;
                 }
                 field("Customer name"; Rec."Customer name")
                 {
                     Caption = 'Vevő neve';
                     ToolTip = 'Specifies the value of the Customer name field.';
                     ApplicationArea = All;
-                    Editable = PageEditable;
+                    Editable = false;
                 }
                 field("Date"; Rec."Date")
                 {
                     Caption = 'Dátum';
                     ToolTip = 'Specifies the value of the Date field.';
                     ApplicationArea = All;
-                    Editable = PageEditable;
+                    Editable = false;
                 }
                 field(Status; Rec.Status)
                 {
@@ -52,6 +53,7 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Sorok';
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
+                Editable = false;
             }
         }
     }
@@ -83,13 +85,6 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Könyvelés';
                 Image = Post;
                 ApplicationArea = All;
-
-                trigger OnAction()
-                var
-                    PostDocumentMgt: Codeunit "CHKK Post Document Mgt.";
-                begin
-                    PostDocumentMgt.PostDoc(Rec);
-                end;
             }
         }
     }

@@ -15,4 +15,12 @@ codeunit 53202 "CHKK Nutrition Order Event"
     begin
         NutritionOrderMGT.ReOpenStatus(Rec);
     end;
+
+    [EventSubscriber(ObjectType::Page, Page::"CHKK Nutrition Order", 'OnBeforeActionEvent', 'ExportDoc', false, false)]
+    local procedure ExportDoc(var Rec: Record "CHKK Nutrition Header")
+    var
+        NutritionOrderMGT: Codeunit "CHKK Nutrition Order Mgt.";
+    begin
+        NutritionOrderMGT.ExportDoc(Rec);
+    end;
 }
