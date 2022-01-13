@@ -198,6 +198,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition Line - Field Unit of Measure - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1220501040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Tápanyag Sorszám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220501040 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition No. - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1220501040 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Nutrition No. - Field No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4266147471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Könyvelt Táplálkozás fejléc</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -512,6 +527,16 @@
           <source>Státusz</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Line - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1115826237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Tápanyag sorszám beállítása</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition No. Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1115826237 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition No. Setup - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1286316263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Étrend</source>
