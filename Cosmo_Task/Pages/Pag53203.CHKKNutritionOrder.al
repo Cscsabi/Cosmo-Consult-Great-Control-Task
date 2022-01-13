@@ -16,6 +16,15 @@ page 53203 "CHKK Nutrition Order"
                     ToolTip = 'Specifies the value of the Nutrition number field.';
                     ApplicationArea = All;
                     Editable = PageEditable;
+
+                    trigger OnAssistEdit()
+                    var
+                        myInt: Integer;
+                    begin
+                        if AssistEdit(xRec) then
+                            CurrPage.Update();
+                    end;
+
                 }
                 field("Customer number"; Rec."Customer number")
                 {
