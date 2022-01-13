@@ -958,6 +958,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Order - Action ReopenStatus - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3661197164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Könyvelt Táplálkozás lekérdezés</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3661197164 - Control 573876685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Control Customer name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3661197164 - Control 1116415121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Control Customer number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3661197164 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3661197164 - Control 2295256373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nutrition number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Control Nutrition number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3661197164 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted Nutrition Query - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2163008273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Könyvelt jelentések</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CHKK Posted Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3661197164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Könyvelt Táplálkozás lekérdezés</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query CHKK Posted Nutrition Query - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
