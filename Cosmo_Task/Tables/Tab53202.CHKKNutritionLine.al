@@ -26,7 +26,9 @@ table 53202 "CHKK Nutrition Line"
         field(4; "Nutrition name"; Text[100])
         {
             Caption = 'Megnevezés';
-            DataClassification = CustomerContent;
+            FieldClass = FlowField;
+            CalcFormula = lookup("CHKK Macronutrients".Description where ("Code" = field("Nutrition code")));
+            Editable = false;
         }
         field(5; Quantity; Integer)
         {

@@ -40,4 +40,16 @@ table 53204 "CHKK Posted Nutrition Header"
             Clustered = true;
         }
     }
+
+    trigger OnInsert()
+    var
+        Setup: Record "CHKK Nutrition No.";
+        NoMgt: Codeunit NoSeriesManagement;
+    begin
+        if "Nutrition number" = '' then
+        begin
+            Setup.Get();
+            "Nutrition number" := NoMgt.GetNextNo(Setup."No.", WorkDate(), true);
+        end;
+    end;
 }

@@ -15,11 +15,22 @@ table 53201 "CHKK Nutrition Header"
             Caption = 'Vevő';
             DataClassification = CustomerContent;
             TableRelation = Customer;
+
+            trigger OnValidate()
+            var
+                Customer: Record Customer;
+            begin
+                if Customer.Get(Rec."Customer number") then
+                    Rec."Customer name" := Customer.Name
+                else
+                    Rec."Customer name" := '';
+            end;
         }
         field(3; "Customer name"; Text[100])
         {
             Caption = 'Vevő neve';
             DataClassification = CustomerContent;
+            Editable = false;
         }
         field(4; "Date"; Date)
         {

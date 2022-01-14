@@ -29,7 +29,7 @@ page 53203 "CHKK Nutrition Order"
                     Caption = 'Vevő neve';
                     ToolTip = 'Specifies the value of the Customer name field.';
                     ApplicationArea = All;
-                    Editable = PageEditable;
+                    Editable = false;
                 }
                 field("Date"; Rec."Date")
                 {
