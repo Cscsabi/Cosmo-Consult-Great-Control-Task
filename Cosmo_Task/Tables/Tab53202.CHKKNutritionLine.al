@@ -27,7 +27,7 @@ table 53202 "CHKK Nutrition Line"
         {
             Caption = 'Megnevezés';
             FieldClass = FlowField;
-            CalcFormula = lookup("CHKK Macronutrients".Description where ("Code" = field("Nutrition code")));
+            CalcFormula = lookup("CHKK Macronutrients".Description WHERE(Code = field("Nutrition code")));
             Editable = false;
         }
         field(5; Quantity; Integer)
