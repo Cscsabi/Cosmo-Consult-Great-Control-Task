@@ -16,16 +16,6 @@ page 53203 "CHKK Nutrition Order"
                     ToolTip = 'Specifies the value of the Nutrition number field.';
                     ApplicationArea = All;
                     Editable = PageEditable;
-                    
-                    /*
-                    trigger OnAssistEdit()
-                    var
-                        myInt: Integer;
-                    begin
-                        if AssistEdit(xRec) then
-                            CurrPage.Update();
-                    end;
-                    */
                 }
                 field("Customer number"; Rec."Customer number")
                 {
@@ -106,25 +96,8 @@ page 53203 "CHKK Nutrition Order"
     var
         PageEditable: Boolean;
     trigger OnNewRecord(BelowxRec: Boolean)
-    var
-        Number: Code[40];
-        GoodNum: Boolean;
     begin
-        Number := 'N_NM0000';
-        GoodNum := false;
         Rec."Date" := Today();
-        if Rec.IsEmpty() then
-            Rec.Insert();
-        while GoodNum do
-            begin
-                if NOT Rec.Get(Number) then
-                    Number := IncStr(Number)
-                else
-                    GoodNum := true;
-            end;
-
-        nutritionCode := Number;
-        Rec."Nutrition number" := nutritionCode;
     end;
 
     trigger OnAfterGetCurrRecord()

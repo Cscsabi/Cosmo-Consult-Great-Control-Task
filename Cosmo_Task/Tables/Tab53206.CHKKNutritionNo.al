@@ -24,16 +24,4 @@ table 53206 "CHKK Nutrition No."
             Clustered = true;
         }
     }
-
-    trigger OnInsert()
-    var
-        Setup: Record "CHKK Nutrition No.";
-        NoMgt: Codeunit NoSeriesManagement;
-    begin
-        if "No." = '' then
-        begin
-            Setup.Get();
-            "No." := NoMgt.GetNextNo(Setup."No.", Today(), true);
-        end;
-    end;
 }
