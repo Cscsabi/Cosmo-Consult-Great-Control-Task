@@ -139,12 +139,6 @@ page 53203 "CHKK Nutrition Order"
             PageEditable := false;
     end;
 
-    trigger OnAfterGetRecord()
-    var
-    begin
-        Page.Run();
-    end;
-
     var
         nutritionCode: Code[40];
 }

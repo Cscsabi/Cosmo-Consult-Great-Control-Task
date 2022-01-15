@@ -3,7 +3,7 @@ table 53202 "CHKK Nutrition Line"
     Caption = 'CHKK Táplálkozás lista';
     DataClassification = ToBeClassified;
     LookupPageId = "CHKK Macronutrients List";
-    DrillDownPageId = "CHKK Macronutrients List";
+    DrillDownPageId = "CHKK Nutrition Order Subform";
 
     fields
     {

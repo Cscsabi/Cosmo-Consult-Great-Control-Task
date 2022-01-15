@@ -3,66 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Cosmo Great Task">
     <body>
       <group id="body">
-        <trans-unit id="Table 3879569547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CHKK List Page Reference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mennyiség</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Amount - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Szénhidrát</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Carbohydrate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Zsír</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Fat - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Kcal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Kcal - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>KJ</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field KJ - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 3769007615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tápanyag kód</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 407151881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tápanyag neve</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 275121493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Táplálkozási szám</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Nutrition Number - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fehérje</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Protein - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 87640997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sorszám</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Serial Number - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3879569547 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mértékegység</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK List Page Reference - Field Unit of Measure - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 549202083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Makrotápanyagok</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -327,6 +267,11 @@
           <source>Mértékegység</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Posted Nutrition Line - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3756371264 - Method 3901635404 - NamedType 1761921010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete the open %1 document?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CHKK Post Document Mgt. - Method PostDoc - NamedType Question</note>
         </trans-unit>
         <trans-unit id="Page 1574538498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Makrotápanyag fejléc</source>
