@@ -11,6 +11,7 @@ table 53201 "CHKK Nutrition Header"
         {
             Caption = 'Táplálkozási szám';
             DataClassification = CustomerContent;
+            
         }
         field(2; "Customer number"; Code[100])
         {

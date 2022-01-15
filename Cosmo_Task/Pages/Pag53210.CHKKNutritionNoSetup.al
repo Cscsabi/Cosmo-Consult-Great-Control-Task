@@ -1,7 +1,7 @@
 page 53210 "CHKK Nutrition No. Setup"
 {
     Caption = 'CHKK Tápanyag sorszám beállítása';
-    PageType = Card;
+    PageType = List;
     SourceTable = "CHKK Nutrition No.";
     UsageCategory = Administration;
     ApplicationArea = All;
@@ -20,15 +20,4 @@ page 53210 "CHKK Nutrition No. Setup"
             }
         }
     }
-
-    trigger OnOpenPage()
-    var
-        nutritionCode: Code[40];
-        Number: Code[40];
-    begin
-        if Rec.IsEmpty() then
-            Rec.Insert();
-        Number := 'N_NM0000';
-        nutritionCode := IncStr(Number);
-    end;
 }
