@@ -1,7 +1,7 @@
 table 53206 "CHKK Nutrition No."
 {
     Caption = 'CHKK Tápanyag Sorszám';
-    DataClassification = CustomerContent;
+    DataClassification = ToBeClassified;
 
     fields
     {

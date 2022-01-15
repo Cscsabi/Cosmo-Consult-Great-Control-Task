@@ -1,4 +1,4 @@
-codeunit 53200 "CHKK Nutrition Calculator"
+codeunit 53200 "Nutrition Calculator"
 {
     // Protein Calculation
     procedure CalcProtein(var Nutrition: Record "CHKK Nutrition Line")
@@ -8,9 +8,9 @@ codeunit 53200 "CHKK Nutrition Calculator"
         protein: Integer;
         macro: Record "CHKK Macronutrients";
     begin
-        nutcode := Nutrition."Nutrition number";
+        nutcode := Nutrition."Nutrition code";
         quantity := Nutrition.Quantity;
-        macro.SetRange("Code", nutcode);
+        macro.SetRange(Code, nutcode);
         macro.FindFirst();
         protein := macro.Protein;
         Nutrition.Protein := quantity * protein;
@@ -24,9 +24,9 @@ codeunit 53200 "CHKK Nutrition Calculator"
         carbo: Integer;
         macro: Record "CHKK Macronutrients";
     begin
-        nutcode := Nutrition."Nutrition number";
+        nutcode := Nutrition."Nutrition code";
         quantity := Nutrition.Quantity;
-        macro.SetRange("Code", nutcode);
+        macro.SetRange(Code, nutcode);
         macro.FindFirst();
         carbo := macro.Carbohydrate;
         Nutrition.Protein := quantity * carbo;
@@ -40,9 +40,9 @@ codeunit 53200 "CHKK Nutrition Calculator"
         fat: Integer;
         macro: Record "CHKK Macronutrients";
     begin
-        nutcode := Nutrition."Nutrition number";
+        nutcode := Nutrition."Nutrition code";
         quantity := Nutrition.Quantity;
-        macro.SetRange("Code", nutcode);
+        macro.SetRange(Code, nutcode);
         macro.FindFirst();
         fat := macro.Carbohydrate;
         Nutrition.Protein := quantity * fat;
@@ -56,9 +56,9 @@ codeunit 53200 "CHKK Nutrition Calculator"
         kcal: Integer;
         macro: Record "CHKK Macronutrients";
     begin
-        nutcode := Nutrition."Nutrition number";
+        nutcode := Nutrition."Nutrition code";
         quantity := Nutrition.Quantity;
-        macro.SetRange("Code", nutcode);
+        macro.SetRange(Code, nutcode);
         macro.FindFirst();
         kcal := macro.Carbohydrate;
         Nutrition.Protein := quantity * kcal;
@@ -72,9 +72,9 @@ codeunit 53200 "CHKK Nutrition Calculator"
         kj: Integer;
         macro: Record "CHKK Macronutrients";
     begin
-        nutcode := Nutrition."Nutrition number";
+        nutcode := Nutrition."Nutrition code";
         quantity := Nutrition.Quantity;
-        macro.SetRange("Code", nutcode);
+        macro.SetRange(Code, nutcode);
         macro.FindFirst();
         kj := macro.Carbohydrate;
         Nutrition.Protein := quantity * kj;

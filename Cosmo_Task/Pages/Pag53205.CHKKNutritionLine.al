@@ -6,6 +6,7 @@ page 53205 "CHKK Nutrition Line"
     SourceTable = "CHKK Nutrition Header";
     UsageCategory = Lists;
     CardPageId = "CHKK Nutrition Order";
+    Editable = false;
 
     layout
     {

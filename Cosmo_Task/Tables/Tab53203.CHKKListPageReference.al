@@ -1,34 +1,34 @@
-table 53205 "CHKK Posted Nutrition Line"
+table 53203 "CHKK List Page Reference"
 {
-    Caption = 'CHKK Könyvelt Táplálkozás lista';
-    DataClassification = ToBeClassified;
+    Caption = 'CHKK List Page Reference';
+    DataClassification = CustomerContent;
     LookupPageId = "CHKK Macronutrients List";
     DrillDownPageId = "CHKK Macronutrients List";
 
     fields
     {
-        field(1; "Nutrition number"; Code[20])
+        field(1; "Nutrition Number"; Code[20])
         {
             Caption = 'Táplálkozási szám';
             DataClassification = CustomerContent;
         }
-        field(2; "Serial number"; Integer)
+        field(2; "Serial Number"; Integer)
         {
             Caption = 'Sorszám';
             DataClassification = CustomerContent;
         }
-        field(3; "Nutrition code"; Code[20])
+        field(3; "Nutrition Code"; Code[20])
         {
             Caption = 'Tápanyag kód';
             DataClassification = CustomerContent;
-            TableRelation = "CHKK Macronutrients" WHERE(Code = field("Nutrition code"));
+            TableRelation = "CHKK Macronutrients" WHERE(Code = field("Nutrition Code"));
         }
-        field(4; "Nutrition name"; Text[100])
+        field(4; "Nutrition Name"; Text[100])
         {
-            Caption = 'Megnevezés';
+            Caption = 'Tápanyag neve';
             DataClassification = CustomerContent;
         }
-        field(5; Quantity; Integer)
+        field(5; Amount; Integer)
         {
             Caption = 'Mennyiség';
             DataClassification = CustomerContent;
@@ -66,7 +66,7 @@ table 53205 "CHKK Posted Nutrition Line"
     }
     keys
     {
-        key(PK; "Nutrition number", "Serial number")
+        key(PK; "Nutrition Number")
         {
             Clustered = true;
         }

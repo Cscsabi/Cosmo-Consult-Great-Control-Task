@@ -43,6 +43,12 @@ page 53201 "CHKK Macronutrients List"
                     ToolTip = 'Specifies the value of the Szénhidrát field.';
                     ApplicationArea = All;
                 }
+                field("Unit of Measure"; Rec."Unit of Measure")
+                {
+                    Caption = 'Mértékegység';
+                    ToolTip = 'Specifies the value of the Mértékegység field.';
+                    ApplicationArea = All;
+                }
                 field(KJ; Rec.KJ)
                 {
                     Caption = 'KJ';
@@ -53,12 +59,6 @@ page 53201 "CHKK Macronutrients List"
                 {
                     Caption = 'Kcal';
                     ToolTip = 'Specifies the value of the Kcal field.';
-                    ApplicationArea = All;
-                }
-                field("Unit of Measure"; Rec."Unit of Measure")
-                {
-                    Caption = 'Mértékegység';
-                    ToolTip = 'Specifies the value of the Mértékegység field.';
                     ApplicationArea = All;
                 }
             }

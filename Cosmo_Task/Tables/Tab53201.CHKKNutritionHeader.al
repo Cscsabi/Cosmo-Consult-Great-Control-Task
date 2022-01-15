@@ -1,7 +1,7 @@
 table 53201 "CHKK Nutrition Header"
 {
     Caption = 'CHKK Táplálkozás fejléc';
-    DataClassification = CustomerContent;
+    DataClassification = ToBeClassified;
 
     fields
     {
@@ -57,19 +57,9 @@ table 53201 "CHKK Nutrition Header"
         Setup: Record "CHKK Nutrition No.";
         NoMgt: Codeunit NoSeriesManagement;
     begin
-        if "Nutrition number" = '' then
-        begin
+        if "Nutrition number" = '' then begin
             Setup.Get();
             "Nutrition number" := NoMgt.GetNextNo(Setup."No.", WorkDate(), true);
         end;
-    end;
-
-    trigger OnDelete()
-    var
-        NutritionLine: Record "CHKK Nutrition Line";
-    begin
-        NutritionLine.Reset();
-        NutritionLine.SetRange("Nutrition number", Rec."Nutrition number");
-        NutritionLine.DeleteAll();
     end;
 }

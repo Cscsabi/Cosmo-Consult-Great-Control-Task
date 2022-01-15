@@ -3,6 +3,7 @@ page 53207 "CHKK Posted N. Order Subform"
     Caption = 'CHKK Könyvelt Étrend Alűrlap';
     PageType = ListPart;
     SourceTable = "CHKK Posted Nutrition Line";
+    UsageCategory = Lists;
 
     layout
     {

@@ -30,18 +30,14 @@ page 53204 "CHKK Nutrition Order Subform"
                     Caption = 'Tápanyag kód';
                     ToolTip = 'Specifies the value of the Tápanyag kód field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field("Nutrition name"; Rec."Nutrition name")
                 {
                     Caption = 'Megnevezés';
                     ToolTip = 'Specifies the value of the Megnevezés field.';
                     ApplicationArea = All;
-                }
-                field(Quantity; Rec.Quantity)
-                {
-                    Caption = 'Mennyiség';
-                    ToolTip = 'Specifies the value of the Mennyiség field.';
-                    ApplicationArea = All;
+                    Editable = false;
                 }
                 field(Protein; Rec.Protein)
                 {
@@ -64,6 +60,13 @@ page 53204 "CHKK Nutrition Order Subform"
                     ApplicationArea = All;
                     Editable = false;
                 }
+                field(Quantity; Rec.Quantity)
+                {
+                    Caption = 'Mennyiség';
+                    ToolTip = 'Specifies the value of the Mennyiség field.';
+                    ApplicationArea = All;
+                    Editable = false;
+                }
                 field(KJ; Rec.KJ)
                 {
                     Caption = 'KJ';
@@ -83,6 +86,7 @@ page 53204 "CHKK Nutrition Order Subform"
                     Caption = 'Mértékegység';
                     ToolTip = 'Specifies the value of the Mértékegység field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
             }
         }
