@@ -45,6 +45,36 @@ page 53203 "CHKK Nutrition Order"
                     ApplicationArea = All;
                     Editable = false;
                 }
+                field(Protein; Rec.Protein)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Fehérje';
+                    Editable = false;
+                }
+                field(Fat; Rec.Fat)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Zsír';
+                    Editable = false;
+                }
+                field(Carbohydrate; Rec.Carbohydrate)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Szénhidrát';
+                    Editable = false;
+                }
+                field(KJ; Rec.KJ)
+                {
+                    ApplicationArea = All;
+                    Caption = 'KJ';
+                    Editable = false;
+                }
+                field(Kcal; Rec.Kcal)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Kcal';
+                    Editable = false;
+                }
             }
 
             part(Lines; "CHKK Nutrition Order Subform")
@@ -95,6 +125,7 @@ page 53203 "CHKK Nutrition Order"
     }
     var
         PageEditable: Boolean;
+
     trigger OnNewRecord(BelowxRec: Boolean)
     begin
         Rec."Date" := Today();

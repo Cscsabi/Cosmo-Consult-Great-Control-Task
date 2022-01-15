@@ -2,6 +2,8 @@ table 53201 "CHKK Nutrition Header"
 {
     Caption = 'CHKK Táplálkozás fejléc';
     DataClassification = ToBeClassified;
+    LookupPageId = "CHKK Nutrition Line";
+    DrillDownPageId = "CHKK Nutrition Line";
 
     fields
     {
@@ -42,6 +44,41 @@ table 53201 "CHKK Nutrition Header"
             Caption = 'Státusz';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
+        }
+        field(6; Protein; Integer)
+        {
+            Caption = 'Fehérje';
+            FieldClass = FlowField;
+            CalcFormula = sum("CHKK Nutrition Line".Protein WHERE("Nutrition number" = field("Nutrition number")));
+            Editable = false;
+        }
+        field(7; Fat; Integer)
+        {
+            Caption = 'Zsír';
+            FieldClass = FlowField;
+            CalcFormula = sum("CHKK Nutrition Line".Fat WHERE("Nutrition number" = field("Nutrition number")));
+            Editable = false;
+        }
+        field(8; Carbohydrate; Integer)
+        {
+            Caption = 'Szénhidrát';
+            FieldClass = FlowField;
+            CalcFormula = sum("CHKK Nutrition Line".Carbohydrate WHERE("Nutrition number" = field("Nutrition number")));
+            Editable = false;
+        }
+        field(9; KJ; Integer)
+        {
+            Caption = 'KJ';
+            FieldClass = FlowField;
+            CalcFormula = sum("CHKK Nutrition Line".KJ WHERE("Nutrition number" = field("Nutrition number")));
+            Editable = false;
+        }
+        field(10; Kcal; Integer)
+        {
+            Caption = 'Kcal';
+            FieldClass = FlowField;
+            CalcFormula = sum("CHKK Nutrition Line".Kcal WHERE("Nutrition number" = field("Nutrition number")));
+            Editable = false;
         }
     }
     keys
