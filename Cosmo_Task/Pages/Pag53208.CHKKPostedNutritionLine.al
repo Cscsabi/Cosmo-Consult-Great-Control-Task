@@ -7,6 +7,7 @@ page 53208 "CHKK Posted Nutrition Line"
     UsageCategory = Lists;
     CardPageId = "CHKK Posted Nutrition Order";
     Editable = false;
+    DelayedInsert = false;
 
     layout
     {

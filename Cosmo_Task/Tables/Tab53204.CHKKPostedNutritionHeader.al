@@ -31,6 +31,7 @@ table 53204 "CHKK Posted Nutrition Header"
             Caption = 'Státusz';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
+            Editable = false;
         }
     }
     keys

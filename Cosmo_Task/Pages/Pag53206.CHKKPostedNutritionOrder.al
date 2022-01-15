@@ -48,12 +48,13 @@ page 53206 "CHKK Posted Nutrition Order"
                 }
             }
 
-            part(Lines; "CHKK Nutrition Order Subform")
+            part(Lines; "CHKK Posted N. Order Subform")
             {
                 Caption = 'Sorok';
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
                 Editable = false;
+                UpdatePropagation = Both;
             }
         }
     }
@@ -97,7 +98,6 @@ page 53206 "CHKK Posted Nutrition Order"
     end;
 
     trigger OnAfterGetCurrRecord()
-
     begin
         if Rec.Status = Rec.Status::Open then
             PageEditable := true

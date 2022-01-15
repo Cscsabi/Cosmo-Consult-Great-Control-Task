@@ -52,6 +52,8 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Sorok';
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
+                Editable = PageEditable;
+                UpdatePropagation = Both;
             }
         }
     }
@@ -89,6 +91,7 @@ page 53203 "CHKK Nutrition Order"
                     PostDocumentMgt: Codeunit "CHKK Post Document Mgt.";
                 begin
                     PostDocumentMgt.PostDoc(Rec);
+                    Message('Document posted successfully!');
                 end;
             }
         }
@@ -107,7 +110,4 @@ page 53203 "CHKK Nutrition Order"
         else
             PageEditable := false;
     end;
-
-    var
-        nutritionCode: Code[40];
 }

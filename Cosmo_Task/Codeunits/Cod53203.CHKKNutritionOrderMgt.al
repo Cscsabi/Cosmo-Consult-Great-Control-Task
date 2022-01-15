@@ -17,8 +17,16 @@ codeunit 53203 "CHKK Nutrition Order Mgt."
 
     [EventSubscriber(ObjectType::Page, Page::"CHKK Nutrition Order", 'OnBeforeActionEvent', 'ExportDoc', false, false)]
     procedure ExportDoc(var Rec: Record "CHKK Nutrition Header")
+    //var
+        //sheetname: Label 'Nutritions';
+        //Name: Label '.\Exported\%1s_Intake';
+        //Output: File;
     begin
-        Message('Not working unfortunately! :S');
+        //Output.Create(StrSubstNo(Name, Rec."Customer Name"));
+        //Output.CreateOutStream(xmlstream);
+        //xmlport.Export(53299, xmlstream);
+        //Output.Close();
+        Message('Not working OnPrem unfortunately! :S');
     end;
 }
 
