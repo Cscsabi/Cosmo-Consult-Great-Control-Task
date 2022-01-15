@@ -22,10 +22,37 @@ query 53200 "CHKK Posted Nutrition Query"
             column(Status; Status)
             {
             }
-
             dataitem(CHKKPostedNutritionLine; "CHKK Posted Nutrition Line")
             {
                 DataItemLink = "Nutrition number" = CHKKPostedNutritionHeader."Nutrition number";
+                column(Protein; Protein)
+                {
+
+                }
+                column(Fat;Fat)
+                {
+
+                }
+                column(Carbohydrate;Carbohydrate)
+                {
+
+                }
+                column(KJ;KJ)
+                {
+
+                }
+                column(Kcal;Kcal)
+                {
+
+                }
+                column(Unit_of_Measure;"Unit of Measure")
+                {
+
+                }
+                column(Quantity;Quantity)
+                {
+
+                }
             }
         }
     }

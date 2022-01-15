@@ -34,7 +34,7 @@ table 53200 "CHKK Macronutrients"
         {
             Caption = 'Mértékegység';
             DataClassification = CustomerContent;
-            TableRelation = "Item Unit of Measure" WHERE("Item No." = field("Code"));
+            TableRelation = "Item Unit of Measure"."Code" WHERE("Item No." = field("Code"));
         }
         field(7; KJ; Integer)
         {
