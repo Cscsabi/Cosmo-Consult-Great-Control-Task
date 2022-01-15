@@ -5,9 +5,9 @@ codeunit 53204 "CHKK Post Document Mgt."
         PostedNutritionHeader: Record "CHKK Posted Nutrition Header";
         PostedNutritionLine: Record "CHKK Posted Nutrition Line";
         NutritionLine: Record "CHKK Nutrition Line";
-        Setup: Record "CHKK Nutrition No.";
         Question: Label 'Do you want to delete the open %1 document?';
         NoSeriesMgt: Codeunit NoSeriesManagement;
+        Setup: Record "CHKK Posted Nutrition No.";
     begin
         Document.TestField(Status, Document.Status::Closed);
 

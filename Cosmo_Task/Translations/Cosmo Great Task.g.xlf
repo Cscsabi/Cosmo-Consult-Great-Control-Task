@@ -268,6 +268,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Posted Nutrition Line - Field Unit of Measure - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 604825903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Könyvelt Tápanyag Sorszám</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Posted Nutrition No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 604825903 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Posted Nutrition No. - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 604825903 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CHKK Posted Nutrition No. - Field No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3756371264 - Method 3901635404 - NamedType 1761921010" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to delete the open %1 document?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -727,6 +742,16 @@
           <source>Mértékegység</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order Subform - Control Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3224431246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHKK Könyvelt Tápanyag sorszám beállítása</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted N. No. Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3224431246 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Posted N. No. Setup - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 133085138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CHKK Könyvelt Étrend Alűrlap</source>

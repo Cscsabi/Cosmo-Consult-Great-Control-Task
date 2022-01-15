@@ -82,6 +82,7 @@ page 53203 "CHKK Nutrition Order"
                 Caption = 'Sorok';
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
+                Editable = PageEditable;
             }
         }
     }
