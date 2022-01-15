@@ -64,7 +64,7 @@ table 53202 "CHKK Nutrition Line"
         {
             Caption = 'Mértékegység';
             DataClassification = CustomerContent;
-            TableRelation = "Item Unit of Measure"."Code" WHERE("Item No." = field("Nutrition number"));
+            TableRelation = "Item Unit of Measure"."Code"; //WHERE("Item No." = field("Nutrition number"));
         }
         field(10; KJ; Integer)
         {
