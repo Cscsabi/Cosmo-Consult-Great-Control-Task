@@ -49,4 +49,6 @@ report 53200 "CHKK Posted Reports"
             }
         }
     }
+    var
+        label1LbL: Label 'Test Report';
 }
