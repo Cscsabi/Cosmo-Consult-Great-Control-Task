@@ -1,6 +1,6 @@
 table 53204 "CHKK Posted Nutrition Header"
 {
-    Caption = 'CHKK Könyvelt Táplálkozás fejléc';
+    Caption = 'CHKK Könyvelt Táplálkozás Fejléc';
     DataClassification = ToBeClassified;
 
     fields

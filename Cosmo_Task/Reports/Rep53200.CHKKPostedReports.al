@@ -1,7 +1,7 @@
 report 53200 "CHKK Posted Reports"
 {
     ApplicationArea = All;
-    Caption = 'CHKK Könyvelt jelentések';
+    Caption = 'CHKK Könyvelt Jelentések';
     UsageCategory = ReportsAndAnalysis;
     DefaultLayout = RDLC;
     RDLCLayout = 'Reports\PostedRep.rdlc';

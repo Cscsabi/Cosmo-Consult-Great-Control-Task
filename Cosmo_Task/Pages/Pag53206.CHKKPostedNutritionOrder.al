@@ -57,52 +57,5 @@ page 53206 "CHKK Posted Nutrition Order"
             }
         }
     }
-    actions
-    {
-        area(Processing)
-        {
-            action(ReleaseStatus)
-            {
-                Caption = 'Lezár';
-                Image = ReleaseDoc;
-                ApplicationArea = All;
-            }
-
-            action(ReopenStatus)
-            {
-                Caption = 'Újranyit';
-                Image = ReOpen;
-                ApplicationArea = All;
-            }
-            action(ExportDoc)
-            {
-                Caption = 'Exportálás Fájlba';
-                Image = Export;
-                ApplicationArea = All;
-            }
-            action(PostDoc)
-            {
-                Caption = 'Könyvelés';
-                Image = Post;
-                ApplicationArea = All;
-            }
-        }
-    }
-    var
-        PageEditable: Boolean;
-
-    trigger OnNewRecord(BelowxRec: Boolean)
-    begin
-        Rec."Date" := Today();
-    end;
-
-    trigger OnAfterGetCurrRecord()
-
-    begin
-        if Rec.Status = Rec.Status::Open then
-            PageEditable := true
-        else
-            PageEditable := false;
-    end;
 
 }

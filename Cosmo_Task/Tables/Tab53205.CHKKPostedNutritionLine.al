@@ -1,6 +1,6 @@
 table 53205 "CHKK Posted Nutrition Line"
 {
-    Caption = 'CHKK Könyvelt Táplálkozás lista';
+    Caption = 'CHKK Könyvelt Táplálkozás Lista';
     DataClassification = ToBeClassified;
     LookupPageId = "CHKK Macronutrients List";
     DrillDownPageId = "CHKK Macronutrients List";

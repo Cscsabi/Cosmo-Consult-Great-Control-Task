@@ -1,7 +1,7 @@
 page 53201 "CHKK Macronutrients List"
 {
     ApplicationArea = All;
-    Caption = 'CHKK Makrotápanyag lista';
+    Caption = 'CHKK Makrotápanyag Lista';
     PageType = List;
     SourceTable = "CHKK Macronutrients";
     UsageCategory = Lists;

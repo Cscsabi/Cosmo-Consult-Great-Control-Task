@@ -1,6 +1,6 @@
 page 53211 "CHKK Posted N. No. Setup"
 {
-    Caption = 'CHKK Könyvelt Tápanyag sorszám beállítása';
+    Caption = 'CHKK Könyvelt Tápanyag Sorszám Beállítása';
     PageType = List;
     SourceTable = "CHKK Posted Nutrition No.";
     UsageCategory = Administration;

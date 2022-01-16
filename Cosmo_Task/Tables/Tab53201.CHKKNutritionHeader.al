@@ -1,6 +1,6 @@
 table 53201 "CHKK Nutrition Header"
 {
-    Caption = 'CHKK Táplálkozás fejléc';
+    Caption = 'CHKK Táplálkozás Fejléc';
     DataClassification = ToBeClassified;
     LookupPageId = "CHKK Nutrition Order Subform";
     DrillDownPageId = "CHKK Nutrition Order Subform";

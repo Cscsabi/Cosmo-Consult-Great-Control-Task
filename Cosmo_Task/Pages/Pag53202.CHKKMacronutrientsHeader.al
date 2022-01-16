@@ -1,6 +1,6 @@
 page 53202 "CHKK Macronutrients Header"
 {
-    Caption = 'CHKK Makrotápanyag fejléc';
+    Caption = 'CHKK Makrotápanyag Fejléc';
     PageType = Document;
     SourceTable = "CHKK Macronutrients";
     
