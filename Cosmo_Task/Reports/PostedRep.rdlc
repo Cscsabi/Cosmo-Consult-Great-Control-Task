@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -763,14 +763,14 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="DateCaption">
+    <ReportParameter Name="CustomernumberCaption">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>DateCaption</Value>
+          <Value>CustomernumberCaption</Value>
         </Values>
       </DefaultValue>
-      <Prompt>DateCaption</Prompt>
+      <Prompt>CustomernumberCaption</Prompt>
     </ReportParameter>
     <ReportParameter Name="NutritionnumberCaption">
       <DataType>String</DataType>
@@ -781,23 +781,23 @@
       </DefaultValue>
       <Prompt>NutritionnumberCaption</Prompt>
     </ReportParameter>
-    <ReportParameter Name="CustomerCaption">
+    <ReportParameter Name="CustomernameCaption">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>CustomerCaption</Value>
+          <Value>CustomernameCaption</Value>
         </Values>
       </DefaultValue>
-      <Prompt>CustomerCaption</Prompt>
+      <Prompt>CustomernameCaption</Prompt>
     </ReportParameter>
-    <ReportParameter Name="CustomerNameCaption">
+    <ReportParameter Name="DateCaption">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>CustomerNameCaption</Value>
+          <Value>DateCaption</Value>
         </Values>
       </DefaultValue>
-      <Prompt>CustomerNameCaption</Prompt>
+      <Prompt>DateCaption</Prompt>
     </ReportParameter>
     <ReportParameter Name="StatusCaption">
       <DataType>String</DataType>
@@ -817,7 +817,7 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>DateCaption</ParameterName>
+          <ParameterName>CustomernumberCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -827,12 +827,12 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>2</RowIndex>
-          <ParameterName>CustomerCaption</ParameterName>
+          <ParameterName>CustomernameCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>3</RowIndex>
-          <ParameterName>CustomerNameCaption</ParameterName>
+          <ParameterName>DateCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -884,17 +884,17 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="Date">
-          <DataField>Date</DataField>
+        <Field Name="Customernumber">
+          <DataField>Customernumber</DataField>
         </Field>
         <Field Name="Nutritionnumber">
           <DataField>Nutritionnumber</DataField>
         </Field>
-        <Field Name="Customer">
-          <DataField>Customer</DataField>
+        <Field Name="Customername">
+          <DataField>Customername</DataField>
         </Field>
-        <Field Name="CustomerName">
-          <DataField>CustomerName</DataField>
+        <Field Name="Date">
+          <DataField>Date</DataField>
         </Field>
         <Field Name="Status">
           <DataField>Status</DataField>

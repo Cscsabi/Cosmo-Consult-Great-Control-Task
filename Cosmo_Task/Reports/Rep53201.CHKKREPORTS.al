@@ -1,10 +1,10 @@
-report 53201 "CHKK REPORTS"
+report 53201 "CHKK Reports"
 {
     ApplicationArea = All;
     Caption = 'CHKK Jelentések';
     UsageCategory = ReportsAndAnalysis;
     DefaultLayout = RDLC;
-    RDLCLayout = '.\PostedTest.rdlc';
+    RDLCLayout = 'Reports\PostedTest.rdlc';
     dataset
     {
         dataitem(CHKKPostedNutritionLine; "CHKK Posted Nutrition Line")
@@ -74,5 +74,5 @@ report 53201 "CHKK REPORTS"
         }
     }
     var
-        label1LbL: Label 'Test Report';
+        label1LbL: Label 'New Test Report';
 }
