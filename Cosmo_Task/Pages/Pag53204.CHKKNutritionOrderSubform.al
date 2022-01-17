@@ -30,6 +30,10 @@ page 53204 "CHKK Nutrition Order Subform"
                     Caption = 'Tápanyag kód';
                     ToolTip = 'Specifies the value of the Tápanyag kód field.';
                     ApplicationArea = All;
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update();
+                    end;
                 }
                 field("Nutrition name"; Rec."Nutrition name")
                 {

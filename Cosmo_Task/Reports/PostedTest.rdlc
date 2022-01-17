@@ -10,49 +10,6 @@
       <rd:DataSourceID>ee9683bf-e3ae-4cb8-93d9-59652496bb09</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="Nutritioncode">
-          <DataField>Nutritioncode</DataField>
-        </Field>
-        <Field Name="Nutritionname">
-          <DataField>Nutritionname</DataField>
-        </Field>
-        <Field Name="Nutritionnumber">
-          <DataField>Nutritionnumber</DataField>
-        </Field>
-        <Field Name="Serialnumber">
-          <DataField>Serialnumber</DataField>
-        </Field>
-        <Field Name="Quantity">
-          <DataField>Quantity</DataField>
-        </Field>
-        <Field Name="Protein">
-          <DataField>Protein</DataField>
-        </Field>
-        <Field Name="Carbohydrate">
-          <DataField>Carbohydrate</DataField>
-        </Field>
-        <Field Name="Fat">
-          <DataField>Fat</DataField>
-        </Field>
-        <Field Name="KJ">
-          <DataField>KJ</DataField>
-        </Field>
-        <Field Name="Kcal">
-          <DataField>Kcal</DataField>
-        </Field>
-        <Field Name="UnitofMeasure">
-          <DataField>UnitofMeasure</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -857,8 +814,65 @@
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
+      <NumberOfColumns>1</NumberOfColumns>
+      <NumberOfRows>11</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>NutritioncodeCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>NutritionnameCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>NutritionnumberCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>SerialnumberCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>QuantityCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>ProteinCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>CarbohydrateCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>FatCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>KJCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>9</RowIndex>
+          <ParameterName>KcalCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>10</RowIndex>
+          <ParameterName>UnitofMeasureCaption</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
     </GridLayoutDefinition>
   </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
@@ -900,4 +914,47 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Nutritioncode">
+          <DataField>Nutritioncode</DataField>
+        </Field>
+        <Field Name="Nutritionname">
+          <DataField>Nutritionname</DataField>
+        </Field>
+        <Field Name="Nutritionnumber">
+          <DataField>Nutritionnumber</DataField>
+        </Field>
+        <Field Name="Serialnumber">
+          <DataField>Serialnumber</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="Protein">
+          <DataField>Protein</DataField>
+        </Field>
+        <Field Name="Carbohydrate">
+          <DataField>Carbohydrate</DataField>
+        </Field>
+        <Field Name="Fat">
+          <DataField>Fat</DataField>
+        </Field>
+        <Field Name="KJ">
+          <DataField>KJ</DataField>
+        </Field>
+        <Field Name="Kcal">
+          <DataField>Kcal</DataField>
+        </Field>
+        <Field Name="UnitofMeasure">
+          <DataField>UnitofMeasure</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>

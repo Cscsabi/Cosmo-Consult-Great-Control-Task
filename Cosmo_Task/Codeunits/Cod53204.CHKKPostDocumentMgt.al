@@ -19,6 +19,7 @@ codeunit 53204 "CHKK Post Document Mgt."
         PostedNutritionHeader.Insert();
         NutritionLine.Reset();
         NutritionLine.SetRange("Nutrition number", Document."Nutrition number");
+        NutritionLine.SetFilter(Quantity, '>0');
         if NutritionLine.FindSet() then
             repeat
             begin

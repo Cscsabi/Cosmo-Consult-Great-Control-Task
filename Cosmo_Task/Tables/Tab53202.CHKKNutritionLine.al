@@ -2,8 +2,6 @@ table 53202 "CHKK Nutrition Line"
 {
     Caption = 'CHKK Táplálkozás Lista';
     DataClassification = ToBeClassified;
-    LookupPageId = "CHKK Macronutrients List";
-    DrillDownPageId = "CHKK Nutrition Order Subform";
 
     fields
     {
@@ -22,6 +20,21 @@ table 53202 "CHKK Nutrition Line"
             Caption = 'Tápanyag kód';
             DataClassification = CustomerContent;
             TableRelation = "CHKK Macronutrients" WHERE(Code = field("Nutrition code"));
+            trigger OnValidate()
+            var
+                Macro: Record "CHKK Macronutrients";
+                Calculator: Codeunit "CHKK Nutrition Calculator";
+            begin
+                Rec.CalcFields("Nutrition name");
+                Rec.Quantity := 1;
+                Macro.Get(Rec."Nutrition code");
+                Rec."Unit of Measure" := Macro."Unit of Measure";
+                Calculator.CalcProtein(Rec);
+                Calculator.CalcCarbo(Rec);
+                Calculator.CalcFat(Rec);
+                Calculator.CalcKcal(Rec);
+                Calculator.CalcKJ(Rec);
+            end;
         }
         field(4; "Nutrition name"; Text[100])
         {
@@ -36,7 +49,7 @@ table 53202 "CHKK Nutrition Line"
             DataClassification = CustomerContent;
             trigger OnValidate()
             var
-                Calculator: Codeunit "Nutrition Calculator";
+                Calculator: Codeunit "CHKK Nutrition Calculator";
             begin
                 Calculator.CalcProtein(Rec);
                 Calculator.CalcCarbo(Rec);
@@ -64,7 +77,7 @@ table 53202 "CHKK Nutrition Line"
         {
             Caption = 'Mértékegység';
             DataClassification = CustomerContent;
-            TableRelation = "Item Unit of Measure"."Code"; //WHERE("Item No." = field("Nutrition number"));
+            TableRelation = "Item Unit of Measure"."Code";
         }
         field(10; KJ; Integer)
         {
@@ -84,7 +97,4 @@ table 53202 "CHKK Nutrition Line"
             Clustered = true;
         }
     }
-
-    var
-        CHKKNutritionHeader: Record "CHKK Nutrition Header";
 }

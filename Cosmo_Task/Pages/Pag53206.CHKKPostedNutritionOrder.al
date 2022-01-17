@@ -56,6 +56,13 @@ page 53206 "CHKK Posted Nutrition Order"
                 Editable = false;
             }
         }
+        area(FactBoxes)
+        {
+            part(CustomerDetail; "Customer Details FactBox")
+            {                
+                ApplicationArea = All;
+                SubPageLink = "No." = field("Customer number");
+            }
+        }
     }
-
 }

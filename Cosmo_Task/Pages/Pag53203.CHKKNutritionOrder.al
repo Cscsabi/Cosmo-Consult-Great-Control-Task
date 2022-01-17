@@ -83,8 +83,19 @@ page 53203 "CHKK Nutrition Order"
                 ApplicationArea = All;
                 SubPageLink = "Nutrition number" = field("Nutrition number");
                 Editable = PageEditable;
+                UpdatePropagation = Both;
             }
+
+
         }
+            area(FactBoxes)
+            {
+                part(CustomerDetail; "Customer Details FactBox")
+                {                
+                    ApplicationArea = All;
+                    SubPageLink = "No." = field("Customer number");
+                }
+            }
     }
     actions
     {

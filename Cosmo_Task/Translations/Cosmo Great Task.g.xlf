@@ -1024,7 +1024,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report CHKK Posted Reports - NamedType label1LbL</note>
         </trans-unit>
         <trans-unit id="Report 2292428274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CHKK Jelentések</source>
+          <source>CHKK Könyvelt Sor Jelentések</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report CHKK Reports - Property Caption</note>
         </trans-unit>
