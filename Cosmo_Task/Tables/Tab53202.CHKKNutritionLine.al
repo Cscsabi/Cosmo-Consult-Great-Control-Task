@@ -27,7 +27,6 @@ table 53202 "CHKK Nutrition Line"
             begin
                 Rec.CalcFields("Nutrition name");
                 Rec.Quantity := 1;
-                Macro.Get(Rec."Nutrition code");
                 Rec."Unit of Measure" := Macro."Unit of Measure";
                 Calculator.CalcProtein(Rec);
                 Calculator.CalcCarbo(Rec);

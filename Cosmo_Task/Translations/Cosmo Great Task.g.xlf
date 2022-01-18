@@ -578,6 +578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control KJ - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1286316263 - Control 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Lines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1286316263 - Control 2295256373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Nutrition number field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -602,11 +607,6 @@
           <source>Státusz</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1286316263 - Control 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sorok</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CHKK Nutrition Order - Control Lines - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1286316263 - Action 2660214864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exportálás Fájlba</source>

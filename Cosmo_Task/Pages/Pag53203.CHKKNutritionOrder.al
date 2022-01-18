@@ -75,7 +75,6 @@ page 53203 "CHKK Nutrition Order"
                     Caption = 'Kcal';
                     Editable = false;
                 }
-            }
 
             part(Lines; "CHKK Nutrition Order Subform")
             {
@@ -85,9 +84,8 @@ page 53203 "CHKK Nutrition Order"
                 Editable = PageEditable;
                 UpdatePropagation = Both;
             }
-
-
         }
+    }
             area(FactBoxes)
             {
                 part(CustomerDetail; "Customer Details FactBox")
@@ -150,7 +148,4 @@ page 53203 "CHKK Nutrition Order"
         else
             PageEditable := false;
     end;
-
-    var
-        nutritionCode: Code[40];
 }

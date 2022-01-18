@@ -29,7 +29,7 @@ codeunit 53200 "CHKK Nutrition Calculator"
         macro.SetRange(Code, nutcode);
         macro.FindFirst();
         carbo := macro.Carbohydrate;
-        Nutrition.Protein := quantity * carbo;
+        Nutrition.Carbohydrate := quantity * carbo;
     end;
 
     // Fat Calculation
@@ -44,8 +44,8 @@ codeunit 53200 "CHKK Nutrition Calculator"
         quantity := Nutrition.Quantity;
         macro.SetRange(Code, nutcode);
         macro.FindFirst();
-        fat := macro.Carbohydrate;
-        Nutrition.Protein := quantity * fat;
+        fat := macro.Fat;
+        Nutrition.Fat := quantity * fat;
     end;
 
     // Kcal Calculation
@@ -60,8 +60,8 @@ codeunit 53200 "CHKK Nutrition Calculator"
         quantity := Nutrition.Quantity;
         macro.SetRange(Code, nutcode);
         macro.FindFirst();
-        kcal := macro.Carbohydrate;
-        Nutrition.Protein := quantity * kcal;
+        kcal := macro.kcal;
+        Nutrition.Kcal := quantity * kcal;
     end;
 
     // KJ Calculation
@@ -76,7 +76,7 @@ codeunit 53200 "CHKK Nutrition Calculator"
         quantity := Nutrition.Quantity;
         macro.SetRange(Code, nutcode);
         macro.FindFirst();
-        kj := macro.Carbohydrate;
-        Nutrition.Protein := quantity * kj;
+        kj := macro.kj;
+        Nutrition.KJ := quantity * kj;
     end;
 }

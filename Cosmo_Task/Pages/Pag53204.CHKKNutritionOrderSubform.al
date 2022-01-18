@@ -47,6 +47,10 @@ page 53204 "CHKK Nutrition Order Subform"
                     Caption = 'Mennyiség';
                     ToolTip = 'Specifies the value of the Mennyiség field.';
                     ApplicationArea = All;
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update();
+                    end;
                 }
                 field(Protein; Rec.Protein)
                 {
